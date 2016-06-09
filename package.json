@@ -1,0 +1,41 @@
+{
+  "name": "Sails-Base",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "2.3.4",
+    "fs-extra": "^0.26.2",
+    "lodash": "~3.10.1",
+    "include-all": "~0.1.6",
+    "rc": "1.0.1",
+    "require-all": "^1.1.0",
+    "sails": "0.12.3",
+    "sails-disk": "~0.10.9",
+    "waterline": "atlantis-software/waterline#deepPopulate",
+    "sails-mongo": "^0.11.5",
+    "moment": "^2.10.6",
+    "sails-hook-babel": "5.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.1",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^2.0.2",
+    "sails.io.js": "~0.13.6",
+    "socket.io-client": "~1.4.4"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js",
+    "test": "mocha test/bootstrap.test.js test/unit/**/*.test.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/testProject.git"
+  },
+  "author": "Ramon Caraballo",
+  "license": ""
+}

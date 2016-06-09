@@ -1,0 +1,14 @@
+app:
+  build: .
+  volumes:
+    - "./api:/usr/src/app/api"
+    - "./assets:/usr/src/app/assets"
+    - "./bootstrap:/usr/src/app/bootstrap"
+    - "./config:/usr/src/app/config"
+    - "./conflicts:/usr/src/app/conflicts"
+    - "./test:/usr/src/app/test"
+    - "./views:/usr/src/app/views"
+  ports:
+    - "1337:1337"
+  external_links:
+    - mongo:mongo
